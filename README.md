@@ -61,8 +61,5 @@ class ConversationalState(TypedDict):
 - [x] **Phase 1 (June 23):** Define architectural boundaries, state schema contracts, and SQLite checkpointer interface.
 - [x] **Phase 2 (June 26):** Stand up LangGraph router node and vendor API tool-calling mocks.
 - [x] **Phase 3 (June 27):** Wire `interrupt_before` thread-locking and human CLI approval override.
-- [x] **Phase 4 (June 28):** End-to-end local runtime simulation verified; graph transaction lifecycle closed.
-
-
-> [!NOTE]  
-> *Live LangSmith telemetry links will populate in this section upon the completion of Phase 4.*
+- [x] **Phase 4 (June 28):** End-to-end local runtime simulation verified; graph transaction lifecycle closed. 
+  * Live Telemetry Trace: [View LangSmith Execution Log](https://smith.langchain.com/public/d1b06be6-6e85-4b1f-8396-291513d9e0f7/r/019f0f03-cc25-7e53-a78e-d9cc1c5964c2)
