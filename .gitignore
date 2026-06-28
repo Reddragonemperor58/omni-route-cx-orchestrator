@@ -1,0 +1,14 @@
+# Virtual Environment
+venv/
+ENV/
+env/
+__pycache__/
+
+# Database & Telemetry Checkpoints
+*.sqlite
+*.sqlite3
+*.db
+
+# Environment Variables & Secrets
+.env
+.env.local
